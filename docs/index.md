@@ -1,8 +1,7 @@
 ---
 title: The Spring Data Repository Interface
-description: ""
+description: "Spring Data Repository Query Inference"
 author: Todd Nordquist
-tags: [reference,library]
 ---
 
 ## Introduction
@@ -25,10 +24,10 @@ data. This presentation level either sends those commands and data to the servic
 modifications and processing or prepares those commands and data in order to display results to the 
 user.
 
-![Figure 1](application-architecture.png)
+![Figure 1](assets/application-architecture.png)
 
 The purpose of this article to is to focus on the repository tier especially with an eye to using
-the ability of spring boot jpa data to infer findBy or, what is the same thing, getBy methods.
+the ability of spring boot jpa data to infer `findBy` or, what is the same thing, `getBy` methods.
 
 ## What is the Repository Interface?
 The repository interface is a Java interface that describes a Data Access Object (DAO) with its 
